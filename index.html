@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A platform for volunteer teaching opportunities.">
+    <title>支教信息平台</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>欢迎来到支教信息平台</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">主页</a></li>
+                <li><a href="#opportunities">支教机会</a></li>
+                <li><a href="#resources">资源中心</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>关于我们</h2>
+        <p>我们的平台旨在提供最新的支教机会信息，帮助志愿者了解和参与支教项目。</p>
+    </section>
+
+    <section id="opportunities">
+        <h2>当前支教机会</h2>
+        <ul>
+            <li>支教项目A - 地区: XX, 时长: 6个月, 招募人数: 20人</li>
+            <li>支教项目B - 地区: YY, 时长: 1年, 招募人数: 15人</li>
+        </ul>
+    </section>
+
+    <section id="resources">
+        <h2>资源中心</h2>
+        <p>这里为志愿者提供支教的申请流程和准备材料。</p>
+    </section>
+
+    <section id="contact">
+        <h2>联系我们</h2>
+        <form action="mailto:contact@education.org" method="post" enctype="text/plain">
+            <label for="name">姓名:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">邮箱:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">信息:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="发送信息">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 支教信息平台</p>
+    </footer>
+</body>
+</html>
